@@ -1,0 +1,44 @@
+.searchContainer {
+    display: inline-flex;
+    flex: 1 1 300px;
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .searchIcon {
+    padding: 1rem;
+    background-color: white;
+  }
+  
+  .searchBox {
+    border: 0;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    flex: 1;
+  }
+  
+  .searchButton {
+    background: #538AC5;
+    border: 0;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0;
+  }
+
+  .rightarrow{
+    margin-top: 25px;
+    margin-left: 25px;
+    color: #B0BCC6 ;
+
+  }
+
+  .imgshadow{
+    box-shadow: 0 8px 8px 3px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .lookingtocoach{
+    font: normal normal 900 40px/51px Montserrat;
+letter-spacing: 0px;
+color: #000000;
+  }

@@ -1,0 +1,75 @@
+.ul li{
+    list-style: none;
+  }
+  .timeline{
+    padding: 0px 100px;
+    position: relative;
+    width: 100%;
+  }
+  .timeline ul li{
+    position: relative;
+    width: 100%;
+    list-style: none;
+
+  }
+  .timeline::before{
+    content: '';
+    position:absolute;
+    height: 70%;
+    width: 4px;
+    background-color: #E7F5FF;
+    left:14%;
+    top:10%;
+  }
+
+  .timeline ul::after{
+    content: '';
+    display: table;
+    clear:both;
+  }
+
+  .timeline ul li:nth-child(odd)::before{
+    content:'';
+    position:absolute;
+    height: 50px;
+    width: 50px;
+    background-color:white;
+    border-radius: 50%;
+    left:-58px;
+    top:50%;
+    transform:translate(0%,-70%);
+  }
+
+  .timeline ul li:nth-child(even)::before{
+    content:'';
+    position:absolute;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    left: -58px;
+    top:50%;
+    transform:translate(0%,-70%);
+  }
+
+  .content{
+    padding: 20px 0px;
+    /* float: left; */
+  }
+
+  .timeline ul li:nth-child(1)::before{
+    background-image: url('./bell.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .timeline ul li:nth-child(2)::before{
+    background-image: url('./globe.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .timeline ul li:nth-child(3)::before{
+    background-image: url('./message.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

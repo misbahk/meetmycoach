@@ -1,0 +1,27 @@
+.bx1{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 10px;
+opacity: 1;
+}
+
+.lin{
+    background-image: linear-gradient(to left,#FFAF9E,#FFD09C);
+    height:200px;
+    /* backgroundColor:"#FFAF9E,FFD09C" */
+}
+
+.recover{
+    font: normal normal bold 45px/55px Montserrat;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.backtohome{
+    font: normal normal 600 15px/19px Montserrat;
+letter-spacing: 0px;
+color: #000000;
+text-transform: uppercase;
+opacity: 1;
+}
